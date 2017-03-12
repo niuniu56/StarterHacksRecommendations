@@ -1,0 +1,87 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("spaghetti.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    opacity: 0.7;
+}
+
+h1{
+    font-family: 'Muli', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    background-image: 
+
+}
+
+h1.title{
+    margin:0;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Muli', sans-serif;
+    font-size: 40px;
+}
+
+p{
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+    margin:5;
+}
+
+div.caption{
+    all:unset;
+    position: absolute;
+    left: 0;
+    top: 45%;
+    bottom:50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+a{
+    border:none;
+    background: none;
+    text-decoration: none;
+    opacity: 1;
+    color: #000;
+}
+button{
+    border:none;
+    background: none;
+    text-decoration: none;
+    opacity: 1;
+    color: #000;
+    display:inline-block;
+    transition: 0.3s;
+}
+
+button:focus {outline:0;}
+
+button:hover {
+    color: #cc9900;
+}
+
+
+
+color{
+    #4863A0
+}
+
+
+
+
