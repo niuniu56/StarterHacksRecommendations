@@ -1,23 +1,102 @@
 h1{
 	font-family: 'Muli', sans-serif;
 	font-size: 50px;
-	font-weight: bold;
+	font-weight: normal;
+	margin-top: 1px;
+	margin-bottom:1px;
+	margin-left: 1px;
+	margin-bottom:1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top:25px;
 
 }
 
 h2{
 	font-family: 'Muli', sans-serif;
 	font-size: 40px;
+	margin-top: 1px;
+	margin-bottom:1px;
+	margin-left: 1px;
+	margin-bottom:1px;
+
 }
 
 p{
 	font-family: 'Muli', sans-serif;
 	font-size: 20px;
+	margin-top: 1px;
+	margin-bottom:1px;
+	margin-left: 1px;
+	margin-bottom:1px;
 }
 
 color{
 	#4863A0
 }
 
+div.sidebar{
+	padding-top:5px;
+	padding-right:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+	margin-top: 5px;
+	float: left;
+	width: 25%;
+	height: 690px;
+	background:rgba(72, 99, 160, 0.5);
+	border-radius:10px;
+}
+
+div.center{
+	width: 72%;
+	float: right;
+	padding-top: 5px;
+	padding-right:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+	border: 3px solid #73AD21;
+}
+ body.general{
+ 	background-color: rgba(255,255,255,1)
+ }
+
+ .card{
+ 	box-shadow:0 4px 8px 0 rgba (0, 0, 0, 0.2);
+ 	max-width: 300px;
+ 	margin: auto;
+ 	text-align: center;
+
+ }
+
+.container{
+	padding:0 16px;
+}
+
+.bio{
+	color: grey;
+	font-size: 18px;
+}
+
+button{
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width:100%;
+	font-size: 18px;
+}
+
+button:hover{
+	opacity: 0.5;
+}
+.profileimage{
+	width:100px;
+	height:100px;
+}
 
 
