@@ -1,15 +1,23 @@
 h1{
 	font-family: 'Muli', sans-serif;
 	font-size: 50px;
+<<<<<<< HEAD
 	font-size:4vw;
 	font-weight: bold;
+=======
+	font-weight: normal;
+>>>>>>> 1a10a52e60a031d3935c8f2667369904529e3d74
 	margin-top: 1px;
 	margin-bottom:1px;
 	margin-left: 1px;
 	margin-bottom:1px;
 	padding-left: 5px;
 	padding-right: 5px;
+<<<<<<< HEAD
 	padding-top:10px;
+=======
+	padding-top:25px;
+>>>>>>> 1a10a52e60a031d3935c8f2667369904529e3d74
 
 }
 
@@ -33,6 +41,7 @@ h2{
 	margin-left: 1px;
 	margin-bottom:1px;
 
+<<<<<<< HEAD
 }
 
 a{
@@ -40,6 +49,8 @@ a{
     background: none;
     text-decoration: none;
     color: #000;
+=======
+>>>>>>> 1a10a52e60a031d3935c8f2667369904529e3d74
 }
 
 p{
@@ -51,11 +62,15 @@ p{
 .basefont{
 	font-family: 'Muli', sans-serif;
 	font-size: 20px;
+<<<<<<< HEAD
 	font-size:2.5vw;
+=======
+>>>>>>> 1a10a52e60a031d3935c8f2667369904529e3d74
 	margin-top: 1px;
 	margin-bottom:1px;
 	margin-left: 1px;
 	margin-bottom:1px;
+<<<<<<< HEAD
 }
 
 .basefont2{
@@ -78,6 +93,8 @@ p{
 	margin-bottom:1px;
 	color:#D4AF37; 
 	font-weight: bold
+=======
+>>>>>>> 1a10a52e60a031d3935c8f2667369904529e3d74
 }
 
 color{
@@ -85,6 +102,7 @@ color{
 }
 
 div.sidebar{
+<<<<<<< HEAD
 	padding-top:10px;
 	padding-right:5px;
 	padding-bottom:5px;
@@ -106,12 +124,38 @@ div.center{
 	height: 100%;
 	border:solid;
 	border-radius: 1px;
+=======
+	padding-top:5px;
+	padding-right:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+	margin-top: 5px;
+	float: left;
+	width: 25%;
+	height: 690px;
+	background:rgba(72, 99, 160, 0.5);
+	border-radius:10px;
+}
+
+div.center{
+	width: 72%;
+	float: right;
+	padding-top: 5px;
+	padding-right:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+	border: 3px solid #73AD21;
+>>>>>>> 1a10a52e60a031d3935c8f2667369904529e3d74
 }
  body.general{
  	background-color: rgba(255,255,255,1)
  }
 
  .card{
+<<<<<<< HEAD
+=======
+ 	box-shadow:0 4px 8px 0 rgba (0, 0, 0, 0.2);
+>>>>>>> 1a10a52e60a031d3935c8f2667369904529e3d74
  	max-width: 300px;
  	margin: auto;
  	text-align: center;
@@ -122,6 +166,13 @@ div.center{
 	padding:0 16px;
 }
 
+<<<<<<< HEAD
+=======
+.bio{
+	color: grey;
+	font-size: 18px;
+}
+>>>>>>> 1a10a52e60a031d3935c8f2667369904529e3d74
 
 button{
 	border: none;
@@ -134,12 +185,16 @@ button{
 	cursor: pointer;
 	width:100%;
 	font-size: 18px;
+<<<<<<< HEAD
 	font-size:2vw;
+=======
+>>>>>>> 1a10a52e60a031d3935c8f2667369904529e3d74
 }
 
 button:hover{
 	opacity: 0.5;
 }
+<<<<<<< HEAD
 
 .profileimage{
 	width:80%;
@@ -182,6 +237,11 @@ form{
 
 .name{
 	padding-top: -3px;
+=======
+.profileimage{
+	width:100px;
+	height:100px;
+>>>>>>> 1a10a52e60a031d3935c8f2667369904529e3d74
 }
 
 
