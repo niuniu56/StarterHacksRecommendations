@@ -1,0 +1,104 @@
+h1{
+	font-family: 'Muli', sans-serif;
+	text-align: center;
+	color: #4863A0;
+	font-size: 70px;
+}
+
+.circle {
+	
+	display:inline-block;
+	float:left;
+    border-radius: 50%;
+    margin-left:90px;
+     margin-top: 0px;
+     line-height: 20%
+}
+
+a{
+    border:none;
+    background: none;
+    text-decoration: none;
+    color: #000;
+}
+
+.round{
+	display:inline-block;
+	float:right;
+	border-radius: 50%; 
+	margin-right:90px;
+	line-height: 20%
+}
+
+.map{
+	width:700px; 
+	height:500px;
+	display: inline-block;
+	margin-left: 5%;
+	margin-top:0;
+}
+
+.upperphotos{
+	display:inline-block;
+}
+
+.round:hover{
+
+}
+
+
+
+h2{
+	font-family: 'Pacifico', cursive;
+	display:inline-block; 
+	color: #625D5D;
+	font-size: 55px;
+	line-height: 0%;
+	text-align: center; 
+	width:100%;
+
+}
+
+h3{
+	font-family: 'Muli', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    width:500px;
+    margin:auto;
+    text-align:center;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.city{
+	width:100%;
+	position:relative;
+}
+
+
+.press { 
+   position: relative; 
+   width: 100%; 
+}
+
+h4 { 
+   position: absolute; 
+   top: 200px; 
+   left: 2%; 
+   width: 100%; 
+   font-family: 'Muli', sans-serif;
+	text-align: center;
+	color: white
+	font-size: 16px;
+}
+
+/*h3 span{
+	font-family: 'Muli', sans-serif;
+	text-align: center; 
+	color: white
+	font-size: 16px;
+
+}

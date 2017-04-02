@@ -12,11 +12,32 @@ h1{
 
 }
 
+.profiletitle{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.profiletitleparagraph{
+    padding-top: 45%;
+    padding-bottom: 45%;
+    opacity:0;
+    color:rgb(225, 225, 225);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.profiletitleparagraph:hover{
+    opacity:1;
+}
+
 h1.title{
-    margin:0;
+    width:500px;
+    margin:auto;
+    text-align:center;
     font-weight: bold;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 h2{
@@ -26,8 +47,8 @@ h2{
 
 p{
     font-family: 'Muli', sans-serif;
-    font-size: 20px;
-    margin:5;
+    font-size: 12px;
+    margin: 5;
 }
 
 div.caption{
@@ -57,10 +78,110 @@ button{
     transition: 0.3s;
 }
 
+hr{
+    margin-left: 100px;
+    margin-right: 100px;
+}
 button:focus {outline:0;}
 
 button:hover {
     color: #cc9900;
+}
+
+div.search{
+    margin: 0 auto;
+    width: 500px; 
+    margin-top:10px;
+    margin-bottom:10px;
+    display:flex;
+
+}
+
+
+input[type=text] {
+    width: 150px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 10px;
+    background-color: white;
+    background-image: url('search.jpg');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    background-size:20px;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin:auto;
+    height:10px;
+}
+
+input[type=text]:focus {
+    width: 200px;
+    outline:none;
+}
+
+input.search:hover{
+    outline:none;
+}
+
+.searchpic{
+    height:40px;
+    width:auto;
+    flex: 1;
+}
+
+div.profile{
+    background-image: url("profilepic.jpg");
+    background-size:cover;
+    background-position:center;
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    display: block;
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+div.profile:hover{
+    
+    width:250px;
+    height:250px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+td{
+    text-align: center;
+}
+
+.tabledata{
+    margin:0;
+    font-size: 20px
+}
+
+.friends{
+    margin: auto;
+    width: 75%;
+    height:50%;
+    padding: 10px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.friendprofileimage{
+    border-radius: 50%;
+    width:175px;
+    height:auto;
+    display: block;
+    margin:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display:inline-block;
+}
+.friendprofileimage:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
 }
 
 

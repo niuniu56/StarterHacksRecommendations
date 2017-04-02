@@ -14,8 +14,6 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-    opacity: 0.7;
 }
 
 h1{
@@ -46,7 +44,7 @@ div.caption{
     all:unset;
     position: absolute;
     left: 0;
-    top: 45%;
+    top: 40%;
     bottom:50%;
     width: 100%;
     text-align: center;

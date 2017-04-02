@@ -6,23 +6,79 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel = "stylesheet" href = "style.css">
 <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
 </head>
 
 <!--body-->
 <body class = "general">
+<a href="home.html"><h3 class ="title">GoodTaste</h1></h3></a>
 <div class = "sidebar" id = "Sidebar"> 
 	<div class = "card">
 		<img class = "profileimage" alt = "Peiyao" src = "profilepic.jpg">
 		<div class = "container">
+			<div class = "name">
 			<h1>Peiyao Chen</h1>
-			<p class = "bio"> Foodie @ heart </p>
-			<p><button>Contact</button></p>
+			</div>
+			<hr>
+			<p class = "basefont"> Foodie @ heart </p>
+			<hr>
+			<p class = "basefont2">Influencer Points</p>
+			<p class = "influencer"> 1,027</p>
+			<hr>
+			<form class = "basefont2">
+			Add Location:<br>
+			<input type = "text" list = "suggestions" name = "Location" style="margin-top: 5px; font-size: 10" placeholder="Name" >
+				<datalist id="suggestions" >
+    				<option value="Indian Street Food Co, Toronto, ON"></option>
+    				<option value="Imanishi Japanese Kitchen,Waterloo, ON">
+    				<option value="Infuse Cafe, Toronto, ON">
+    				<option value="Insomnia, Toronto, ON">
+    				<option value="IQ Food Co., Toronto ON">
+				</datalist>
+		<br>
+			</form>
+			<textarea class = "textarea" placeholder="Description" ></textarea>
+			<p class = basefont id = "add"><button>Add</button></p>
 		</div>
 	</div>
 </div>
 
 <div class = "center" id = "Center">
-	<h1> How are you </h1>
+	<div id = "map" style="margin:0"></div>
+	<script>
+		function initMap() {
+			var location = {lat:43.708219, lng:-79.375771};
+			var map = new google.maps.Map(document.getElementById('map'),{
+				zoom: 2,
+				center: location
+			});
+
+			var marker = new google.maps.Marker({
+				position: {lat: -25.363, lng:131.044},
+				map: map
+			});
+
+
+
+			var add = document.getElementById('add');
+
+        	google.maps.event.addDomListener(add, 'click', function() {
+   				var marker = new google.maps.Marker({
+        			position: {lat:43.708219, lng:-79.375771},
+        			map: map
+    			});
+
+   				google.maps.event.addListener(marker,'click',function() {
+  					map.setZoom(14);
+  					map.setCenter(marker.getPosition());
+  				});
+			});
+	}
+	</script>
+	<script async defer src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAMCpsRLEY7BggxkyKXXpiq6aEbzpeWlug&callback=initMap">
+	</script>
+
+	
 </div>
 </body>

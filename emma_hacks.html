@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="stylish.css">
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+</head>
+
+<body>
+
+
+	<a href="home.html"><h3>GoodTaste</h3></a>
+	<div class="city"><h2>Toronto</h2></div>
+	<img class="circle" src="views.jpeg" alt="views" style="width:200px;height:200px horizontal-align:left; display: inline-block;">
+	<div class = "map" id="googleMap"></div>
+ 	<img class="round" src="pasta.jpg" alt="home" style="width:200px;height:200px; display: inline-block;"> 
+ 	
+	
+	<br>
+	<br>
+	<br>
+	<br> 
+
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(43.6532, -79.3832),
+    zoom:13,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+
+
+			var marker2 = new google.maps.Marker({
+				position: {lat: 43.708033, lng:-79.375782},
+				map: map
+			});
+
+			var marker3 = new google.maps.Marker({
+				position: {lat:43.669056, lng:-79.369259},
+				map: map
+			});
+
+			var marker4 = new google.maps.Marker({
+				position: {lat:43.665331, lng:-79.432087},
+				map: map
+			});
+
+			var marker5 = new google.maps.Marker({
+				position: {lat: 43.72033, lng:-79.396782},
+				map: map
+			});
+
+			var marker6 = new google.maps.Marker({
+				position: {lat:43.643223, lng:-79.373551},
+				map: map
+			});
+		}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmi4VaqohtNo4dgy77r5s6DZazJE1tZnU&callback=myMap"></script>
+
+
+</body>
+</html>

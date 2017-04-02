@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<head>
+<meta charset = "UTF-8">
+<meta name = "description" content = "Profile">
+<meta name = "keywords" content = "Profile">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel = "stylesheet" href = "style.css">
+<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+</head>
+
+<!--body-->
+<body class = "general">
+
+<a href="home.html"><h3 class ="title">GoodTaste</h3></a>
+<div class = "sidebar" id = "Sidebar"> 
+	<div class = "card">
+		<img class = "profileimage" alt = "Peiyao" src = "ayshaprofile.jpg">
+		<div class = "container">
+			<div class = "name">
+			<h1>Aysha Cotterill</h1>
+
+			</div>
+			<hr>
+				<p class = "basefont"> World Traveler </p>
+				<hr>
+				<p class = "basefont2">Influencer Points</p>
+				<p class = "influencer" style="color:#808080"> 496</p>
+				<hr>
+				<p class = "basefont"> Top Locations </p>
+				
+				<p id="torontop" style="cursor: pointer;">  <b>Toronto, ON </b></p>
+				<p id="waterloop" style="cursor: pointer;">Waterloo, ON</p>
+				<p id="sanfran" style="cursor: pointer;">San Francisco, CA</p>
+				<a href =" "><p>See All</p></a>
+				
+
+		</div>
+	</div>
+</div>
+
+<div class = "center" id = "Center">
+<div id = "map" style="margin:0"></div>
+	<script>
+		function initMap() { 
+			var location = {lat: 43.708033, lng:-79.375782};
+			var map = new google.maps.Map(document.getElementById('map'),{
+				center: location,
+				zoom: 3
+			});
+			var marker = new google.maps.Marker({
+				position: location,
+				map: map
+			});
+
+			var marker2 = new google.maps.Marker({
+				position: {lat: 43.708033, lng:-79.375782},
+				map: map
+			});
+
+			var marker3 = new google.maps.Marker({
+				position: {lat:43.669056, lng:-79.369259},
+				map: map
+			});
+
+			var marker4 = new google.maps.Marker({
+				position: {lat:43.665331, lng:-79.432087},
+				map: map
+			});
+
+			var marker5 = new google.maps.Marker({
+				position: {lat: 43.72033, lng:-79.396782},
+				map: map
+			});
+
+			var marker6 = new google.maps.Marker({
+				position: {lat:43.643223, lng:-79.373551},
+				map: map
+			});
+
+			var marker7 = new google.maps.Marker({
+				position: {lat:43.482633, lng:-80.525350},
+				map: map
+			});
+
+			var marker8 = new google.maps.Marker({
+				position: {lat:43.474163, lng:-80.547923},
+				map: map
+			});
+
+			var marker9 = new google.maps.Marker({
+				position: {lat:43.454727, lng:-80.531100},
+				map: map
+			});
+
+			var marker10 = new google.maps.Marker({
+				position: {lat:43.474163, lng:-80.547923},
+				map: map
+			});
+
+			var marker11 = new google.maps.Marker({
+				position: {lat:43.474163, lng:-80.547923},
+				map: map
+			});
+
+			var marker12 = new google.maps.Marker({
+				position: {lat:37.765415, lng:-122.431852},
+				map: map
+			});
+
+			var marker12 = new google.maps.Marker({
+				position: {lat:37.743156, lng:-122.497083},
+				map: map
+			});
+
+			var toronto = document.getElementById('torontop');
+
+			google.maps.event.addDomListener(toronto, 'click', function() {
+				map.setZoom(11);
+          		map.setCenter(marker2.getPosition());
+        	});
+
+        	var waterloo = document.getElementById('waterloop');
+
+			google.maps.event.addDomListener(waterloo, 'click', function() {
+				map.setZoom(11);
+          		map.setCenter(marker7.getPosition());
+        	});
+
+        	var sanfran = document.getElementById('sanfran');
+
+			google.maps.event.addDomListener(sanfran, 'click', function() {
+				map.setZoom(11);
+          		map.setCenter(marker12.getPosition());
+        	});
+
+
+	};
+
+		
+	</script>
+	<script async defer src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAMCpsRLEY7BggxkyKXXpiq6aEbzpeWlug&callback=initMap">
+	</script>
+
+	
+</div>
+</body>
